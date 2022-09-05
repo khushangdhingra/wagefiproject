@@ -1,4 +1,137 @@
-.container-fluid{
-    background-image: url("./images/Background@2x.png");
+
+
+body{
+    /*using 1x and 2x(retina images) as background*/
+        background-image: url("./images/Background.png");
+        background-image: -webkit-image-set(
+          url("./images/Background.png") 1x,
+          url("./images/Background@2x.png") 2x);
+        background-image: image-set(
+          url("./images/Background.png") 1x,
+          url("./images/Background@2x.png") 2x);
+      
+
+      }
+
+.row{
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.row h4{ 
+    
+        white-space: nowrap;
+    text-align: center;
+    font-family: Forma DJR Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(227,244,255,1);
+    letter-spacing: 0.24px;
     
 }
+/* icon */
+.col-sm-1 i{
+    padding: 20px;
+    font-size: 30px;
+}
+/*middle main text*/
+.text-center{
+    padding: 15px;
+    margin-top: 80px;
+
+}
+.text-center h1{
+    white-space: nowrap;
+    text-align: center;
+    font-family: Blenny;
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(255,255,255,1);
+    letter-spacing: 3.6px;
+    font-size: 90px;
+    
+}
+.text-center h3{
+    white-space: nowrap;
+    text-align: center;
+    font-family: Blenny;
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(255,255,255,1);
+    letter-spacing: 3.6px;
+    font-size: 36px;
+}
+
+/*trip-detail section */
+.trip-details {
+ margin-top: 200px;
+ 
+ padding-left: 20%;
+}
+.trip-details button{
+    white-space: nowrap;
+    text-align: center;
+    font-family: Forma DJR Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 0.2px;
+    background-color: transparent;
+    border: none;
+}
+.trip-details h5{
+    white-space: nowrap;
+    text-align: left;
+    font-family: Forma DJR Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(151,157,173,1);
+    letter-spacing: 0.24px;
+}
+.trip-details h4{
+    white-space: nowrap;
+    text-align: left;
+    font-family: Forma DJR Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(34,38,43,1);
+    letter-spacing: 0.2px;
+}
+
+
+
+.image-gallery{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+/*svg styling for animation*/
+/* .Bottom {
+    position: absolute;
+    overflow: visible;
+    
+  
+    z-index: -1;
+}
+#Bottom {
+    filter: blur(50px);
+    fill: rgba(245,250,255,1);
+} */
+/* :not(svg) {
+    transform-origin: 0px 0px;
+} */
+
+
+
+
+
+/* 
+
+:not(svg) {
+    transform-origin: 0px 0px;
+} */

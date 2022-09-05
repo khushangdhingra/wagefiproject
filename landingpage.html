@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-  <head>
+<html>  
+<head>
     <title>Travel Landing Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--icons-->
+    <script src="https://kit.fontawesome.com/b38e1bc481.js" crossorigin="anonymous"></script>
 
-    <!-- stylesheet-->
+    <!-- stylesheet and bootstrap-->
     <link rel="stylesheet" href="landingpage.css" />
     <!-- Latest compiled and minified CSS -->
     <link
@@ -18,13 +21,155 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
+    <!--
+        making a container fluid keeping width and height to 100%
+    -->
     <div class="container-fluid" >
-        <div class="row">
+
+
+
+        <!--section 1(navbar)-->
+            <div class="nav-bar">
             <div class="row">
-                <div class="col-sm-4">.col-sm-4</div>
-                <div class="col-sm-8">.col-sm-8</div>
+                <div class="col-sm-2">
+                    <h4>LOGO</h4>   <!--logo missing-->
+                </div>
+                <div class="col-sm-8" style="padding-left: 60px;">
+                    <div class="col-sm-2" >
+                        <h4>Explore</h4>
+                    </div>
+                    <div class="col-sm-2">
+                        <h4>Destination</h4>
+                    </div>
+                    <div class="col-sm-2">
+                        <h4>Packages</h4>
+                    </div>
+                    <div class="col-sm-2">
+                        <h4>Flights</h4>
+                    </div>
+                    <div class="col-sm-2">
+                        <h4>Reviews</h4>
+                    </div>
+
+                </div>
+
+                <!--icons section-->
+                <div class="col-sm-2">
+                    <div class="col-sm-2" style="padding:15px; font-size:24px; color: white; margin-right: 20px;" >
+                        <i class="fa-sharp fa-solid fa-magnifying-glass " ></i>
+                                        </div>
+                    <div class="col-sm-2" style="padding:15px; font-size:24px; color: white;">
+                        <i class="fa-solid fa-circle-user"></i>
+                                        </div>
+                </div>
               </div>
+            </div>
+
+
+
+       <!--section 2(middle text headings)-->
+          <div class="text-center">
+            <h3>IT'S TIME TO</h3>
+            <h1>ADVENTURE</h1>
           </div>
+
+
+          
+
+<!--Section 3(trip details(menu))-->
+          <div class="trip-details" style="height: 200px;">
+            <!--button groups-->
+            <div class="col-sm-8" style="padding-left: 0px; ">
+                <div class="col-sm-2" style="padding-left: 0px;">
+                    <button class="active" style="background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(221,215,215,1) 96%);
+                    color: rgba(61,95,143,1); padding: 10px;">Round Trip</button>
+                </div>
+                <div class="col-sm-2">
+                    <button>One way</button>
+                </div>
+                <div class="col-sm-2">
+                    <button>Multi City</button>
+                </div>
+            </div>
+
+
+            <!--main search/input menu-->
+            <div class="col-sm-8 " style="background:white;  ">
+                <div class="col-sm-2" style="padding:20px">
+                    <h5><i class="fa-solid fa-map-location" style="padding: 5px;"></i>Location<i class="fa-solid fa-caret-down" style="padding: 5px;" ></i></h5>
+                    <h4>Lofoten Islands</h4>
+                </div>
+                <div class="col-sm-2" style="padding:20px; margin-left: 30px;">
+                    <h5><i class="fa-solid fa-users" style="padding: 5px;"></i>Guests<i class="fa-solid fa-caret-down" style="padding: 5px;"></i></h5>
+                    <h4>2 Adults</h4>
+                </div>
+                <div class="col-sm-2" style="padding:20px; margin-left: 30px;">
+                    <h5><i class="fa-solid fa-hand-holding" ;style="padding: 5px;"></i>Arriving<i class="fa-solid fa-caret-down" style="padding: 5px;"></i></h5>
+                    <h4>May 8th,2021</h4>
+                </div>
+                <div class="col-sm-2" style="padding:20px; margin-left: 30px;">
+                    <h5><i class="fa-solid fa-plane-departure" style="padding: 5px;" ></i>Departing<i class="fa-solid fa-caret-down" style="padding: 5px;"></i></h5>
+                    <h4>May 19th,2021</h4>
+                </div>
+                <div class="col-sm-2" style="padding:20px; padding-right: none; margin-left: 40px;">
+                    <button class="execute" style="background-color: rgba(92,40,234,1); font-size: 21px; padding: 20px; margin-top:10px; border:none;">Let's Go</button>
+                </div>
+
+            </div>
+        </div>
+<!--using svg for blurry background(making page non-responsive)-->
+        <!-- <svg class="Bottom">
+            <rect id="Bottom" rx="0" ry="0" x="20" y="70" width="1900" height="700">
+            </rect>
+        </svg>
+            -->
+            <!--section 3(image gallery)-->
+            <div class="image-gallery" style="padding: 60px;">
+                <!--heading-->
+                <span style="white-space: nowrap;
+                text-align: left;
+                font-family: Forma DJR Display;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 40px;
+                color: rgba(84,84,102,1);
+                padding-left: 20px;
+                letter-spacing: 0.2px;">Discover your next adventure</span>
+                <!--images-->
+                <div class="row">
+                    <div class="col-md-3">
+                      <div class="thumbnail">
+                          <img src="./images/AdobeStock_270126955.png" alt="Lights" style="width:100%">
+                         
+                        </a>
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-3">
+                      <div class="thumbnail">
+                          <img src="./images/AdobeStock_390498659.png" alt="Nature" style="width:100%">
+                      
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="thumbnail">
+                          <img src="./images/AdobeStock_458932623.png" alt="Fjords" style="width:100%">
+                          
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <img src="./images/AdobeStock_475038679.png" alt="Fjords" style="width:100%">
+                            
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        
+     
     </div>
   </body>
-</html>
+
