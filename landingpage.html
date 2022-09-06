@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>  
+<html>
+
 <head>
     <title>Travel Landing Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,33 +10,32 @@
     <!-- stylesheet and bootstrap-->
     <link rel="stylesheet" href="landingpage.css" />
     <!-- Latest compiled and minified CSS -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <!--
         making a container fluid keeping width and height to 100%
     -->
-    <div class="container-fluid" >
+    <div class="container-fluid">
 
 
 
         <!--section 1(navbar)-->
-            <div class="nav-bar">
+        <div class="nav-bar">
             <div class="row">
                 <div class="col-sm-2">
-                    <h4>LOGO</h4>   <!--logo missing-->
+                    <h4>LOGO</h4>
+                    <!--logo missing-->
                 </div>
                 <div class="col-sm-8" style="padding-left: 60px;">
-                    <div class="col-sm-2" >
+                    <div class="col-sm-2">
                         <h4>Explore</h4>
                     </div>
                     <div class="col-sm-2">
@@ -56,121 +56,133 @@
                 <!--icons section-->
                 <div class="col-sm-1" style=" font-size:24px; color: white;">
                     <i class="fa-solid fa-circle-user"></i>
-                                    </div>
-                    <div class="col-sm-1"  >
-                        <form action="" class="search-form" style="padding-right:30px ; padding-top:14px;">
-                            <div class="form-group has-feedback">
-                                <label for="search" class="sr-only">Search</label>
-                                <input type="text" class="form-control" name="search" id="search" placeholder="search">
-                                  <span class="glyphicon glyphicon-search form-control-feedback"></span>
-                            </div>
-                        </form>
-                          
-                      </div>
-                </div> 
-              </div>
-            </div>
-
-
-
-       <!--section 2(middle text headings)-->
-          <div class="text-center">
-            <h3>IT'S TIME TO</h3>
-            <h1>ADVENTURE</h1>
-          </div>
-
-
-          
-
-<!--Section 3(trip details(menu))-->
-          
-          <div class="trip-details" style="height: 175px;">
-            <!--button groups-->
-            <div class="col-sm-8" style="padding-left: 0px; ">
-                <div class="col-sm-2" style="padding-left: 0px; padding-right: 0px;">
-                    <button type="button" class="btn btn-primary">Round Trip</button>
                 </div>
-                <div class="col-sm-2" >
-                    <button type="button" class="btn btn-primary">One Way</button>
-                </div>
-                <div class="col-sm-2" >
-                    <button type="button" class="btn btn-primary">MultiCity</button>
-                </div>
-            </div>
-
-
-            <!--main search/input menu-->
-            <div class="col-sm-9 " style="background:white; width: fit-content;  ">
-                <div class="col-sm-2" style="padding:25px ; margin-right: 30px;">
-                    <!-- <h5></h5> -->
-                    <div class="dropdown" style="display: flex;">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
-                            <i class="fa-solid fa-map-location" style="padding-top: 2px;"></i>Location<i class="fa-solid fa-caret-down" style="padding-top: 2px; padding-left:0px ;" ></i>
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
+                <!--expandable search bar-->
+                <div class="col-sm-1">
+                    <form action="" class="search-form" style="padding-right:30px ; padding-top:14px;">
+                        <div class="form-group has-feedback">
+                            <label for="search" class="sr-only">Search</label>
+                            <input type="text" class="form-control" name="search" id="search" placeholder="search">
+                            <span class="glyphicon glyphicon-search form-control-feedback"></span>
                         </div>
-                      </div>
-                    <h4>Lofoten Islands</h4>
-                </div>
-                <div class="col-sm-2" style="padding:25px; margin-left: 30px;">
-                    <div class="dropdown" style="display: flex;">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
-                            <i class="fa-solid fa-users" style="padding-top: 2px;"></i>  Guests<i class="fa-solid fa-caret-down" style="padding-top: 2px; padding-left:0px ;" ></i>
-                                                </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                      </div>
-                    <h4>2 Adults</h4>
-                </div>
-                <div class="col-sm-2" style="padding:25px; margin-left: 30px;">
-                    <div class="dropdown" style="display: flex;">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
-                            <i class="fa-solid fa-hand-holding" style="padding-top: 2px;"></i>Arriving   <i class="fa-solid fa-caret-down" style="padding-top: 2px; padding-left:0px ;" ></i>                                             </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                      </div>
-                    <h4>May 8th,2021</h4>
-                </div>
-                <div class="col-sm-2" style="padding:25px; margin-left: 30px;">
-                    <div class="dropdown" style="display: flex;">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
-                            <i class="fa-solid fa-plane-departure" style="padding-top: 2px;"></i>Departing   <i class="fa-solid fa-caret-down" style="padding-top: 2px; padding-left:0px ;" ></i>                                           
-                          </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                      </div>
-                    <h4>May 19th,2021</h4>
-                </div>
-                <div class="col-sm-2" style="padding:20px; padding: 25px; margin-left: 30px;">
-                    <button class="execute" style="background-color: rgba(92,40,234,1); font-size: 21px; padding: 20px; margin-top:10px; border:none;">Let's Go</button>
-                </div>
+                    </form>
 
+                </div>
             </div>
         </div>
-        
-           
-            <!--section 3(image gallery)-->
-            
-            <div class="image-gallery" >
-                <!--using svg for background styling-->
-                <svg class="Bottom" >
-                    <rect id="Bottom" rx="0" ry="0" x="0" y="0" width="100%" height="600px">
-                    </rect>
-                </svg>
-                <!--heading-->
-                <span style="white-space: nowrap;
+    </div>
+
+
+
+    <!--section 2(middle text headings)-->
+    <div class="text-center">
+        <h3>IT'S TIME TO</h3>
+        <h1>ADVENTURE</h1>
+    </div>
+
+
+
+
+    <!--Section 3(trip details(menu))-->
+
+    <div class="trip-details" style="height: 175px;">
+        <!--button groups-->
+        <div class="col-sm-8" style="padding-left: 0px; ">
+            <div class="col-sm-2" style="padding-left: 0px; padding-right: 0px;">
+                <button type="button" class="btn btn-primary">Round Trip</button>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary">One Way</button>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary">MultiCity</button>
+            </div>
+        </div>
+
+
+        <!--main search/input menu-->
+        <div class="col-sm-9 " style="background:white; width: fit-content;  ">
+            <!--dropdowns-->
+            <div class="col-sm-2" style="padding:25px ; margin-right: 30px;">
+                <div class="dropdown" style="display: flex;">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa-solid fa-map-location" style="padding-top: 2px;"></i>Location<i
+                            class="fa-solid fa-caret-down" style="padding-top: 2px; padding-left:0px ;"></i>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+                <h4>Lofoten Islands</h4>
+            </div>
+            <div class="col-sm-2" style="padding:25px; margin-left: 30px;">
+                <div class="dropdown" style="display: flex;">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa-solid fa-users" style="padding-top: 2px;"></i> Guests<i
+                            class="fa-solid fa-caret-down" style="padding-top: 2px; padding-left:0px ;"></i>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+                <h4>2 Adults</h4>
+            </div>
+            <div class="col-sm-2" style="padding:25px; margin-left: 30px;">
+                <div class="dropdown" style="display: flex;">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa-solid fa-hand-holding" style="padding-top: 2px;"></i>Arriving <i
+                            class="fa-solid fa-caret-down" style="padding-top: 2px; padding-left:0px ;"></i> </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+                <h4>May 8th,2021</h4>
+            </div>
+            <div class="col-sm-2" style="padding:25px; margin-left: 30px;">
+                <div class="dropdown" style="display: flex;">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa-solid fa-plane-departure" style="padding-top: 2px;"></i>Departing <i
+                            class="fa-solid fa-caret-down" style="padding-top: 2px; padding-left:0px ;"></i>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+                <h4>May 19th,2021</h4>
+            </div>
+            <!--submit button-->
+            <div class="col-sm-2" style="padding:20px; padding: 25px; margin-left: 30px;">
+                <button class="execute"
+                    style="background-color: rgba(92,40,234,1); font-size: 21px; padding: 20px; margin-top:10px; border:none;">Let's
+                    Go</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--section 3(image gallery)-->
+
+    <div class="image-gallery">
+        <!--using svg for background styling-->
+        <svg class="Bottom">
+            <rect id="Bottom" rx="0" ry="0" x="0" y="0" width="100%" height="600px">
+            </rect>
+        </svg>
+        <!--heading-->
+        <span style="white-space: nowrap;
                 text-align: left;
                 font-family: Forma DJR Display;
                 font-style: normal;
@@ -179,41 +191,40 @@
                 color: rgba(84,84,102,1);
                 padding-left: 20px;
                 letter-spacing: 0.2px;">Discover your next adventure</span>
-                <!--images-->
-                <div class="row">
-                    <div class="col-md-3">
-                      <div class="thumbnail">
-                          <img src="./images/AdobeStock_270126955.png" alt="Lights" style="width:100%">
-                         
-                        </a>
-                      </div>
-                    </div>
-                    
-                    <div class="col-md-3">
-                      <div class="thumbnail">
-                          <img src="./images/AdobeStock_390498659.png" alt="Nature" style="width:100%">
-                      
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="thumbnail">
-                          <img src="./images/AdobeStock_458932623.png" alt="Fjords" style="width:100%">
-                          
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="thumbnail">
-                            <img src="./images/AdobeStock_475038679.png" alt="Fjords" style="width:100%">
-                            
-                          </a>
-                        </div>
-                      </div>
-                  </div>
-            </div>
-        
-     
-    </div>
-  </body>
+        <!--images-->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="./images/AdobeStock_270126955.png" alt="Lights" style="width:100%">
 
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="./images/AdobeStock_390498659.png" alt="Nature" style="width:100%">
+
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="./images/AdobeStock_458932623.png" alt="Fjords" style="width:100%">
+
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="./images/AdobeStock_475038679.png" alt="Fjords" style="width:100%">
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+</body>
