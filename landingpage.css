@@ -12,50 +12,63 @@ body{
         background-size: 100% 100%;
         background-repeat: no-repeat;
       }
-
+  
 .row{
     padding: 15px;
-    margin-top: 40px;
+    margin-top: 55px;
 }
 
-inp.back {
-    padding: 0px;
-    background: #10314c;
+.search-form .form-group {
+    float: right !important;
+    transition: all 0.35s, border-radius 0s;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    box-shadow: none;
+    border-radius: 25px;
+    
   }
-  
-  .searchicon {
-    float: left;
-    margin-top: -20px;
-    position: relative;
-    pointer-events: none;
-    top: 26px;
-    left: 8px;
-    color: white;
-    z-index: 2;
-    font-size: 25px;
-    padding:20px;
-    padding-right: 0px;
-
-  }
-  
-  .extand {
-    width: 4%;
-    box-sizing: border-box;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
+  .search-form .form-group input.form-control {
+    padding-right: 20px;
+    border: 0 none;
     background: transparent;
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-    padding-left: 0px;
-    padding-top: 20px;;
-    cursor: pointer;
+    box-shadow: none;
+    display:block;
+  }
+  .search-form .form-group input.form-control::-webkit-input-placeholder {
+    display: none;
+  }
+  .search-form .form-group input.form-control:-moz-placeholder {
+    /* Firefox 18- */
+    display: none;
+  }
+  .search-form .form-group input.form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    display: none;
+  }
+  .search-form .form-group input.form-control:-ms-input-placeholder {
+    display: none;
+  }
+  .search-form .form-group:hover,
+  .search-form .form-group.hover {
+    width: 100%;
+    border-radius: 4px 25px 25px 4px;
+  }
+  .search-form .form-group span.form-control-feedback {
+    position: absolute;
+
+    z-index: 2;
+    display: block;
+    
+    line-height: 34px;
+    text-align: center;
+    color: black;
+    left: initial;
+    font-size: 14px;
   }
   
   .extand:focus {
-    width: 60%;
+    width: 100%;
     background: white;
   }
   .extand:focus + span{
@@ -186,6 +199,7 @@ padding-right: 25%;
     border-radius: 10px;
     margin: 40px 40px 40px 40px;
     background-filter: blur(50px); */
+    padding-top:0px ;
 }
 
 /*svg styling for animation*/
