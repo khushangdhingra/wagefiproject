@@ -18,6 +18,49 @@ body{
     margin-top: 40px;
 }
 
+inp.back {
+    padding: 0.5%;
+    background: #10314c;
+  }
+  
+  .searchicon {
+    float: left;
+    margin-top: -20px;
+    position: relative;
+    pointer-events: none;
+    top: 26px;
+    left: 8px;
+    color: white;
+    z-index: 2;
+    font-size: 25px;
+    padding:20px;
+    padding-right: 0px;
+
+  }
+  
+  .extand {
+    width: 4%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background: transparent;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    padding-left: 0px;
+    padding-top: 20px;;
+    cursor: pointer;
+  }
+  
+  .extand:focus {
+    width: 60%;
+    background: white;
+  }
+  .extand:focus + span{
+    display:none;
+  }
 .row h4{ 
     
         white-space: nowrap;
