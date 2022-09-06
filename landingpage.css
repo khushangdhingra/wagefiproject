@@ -19,7 +19,7 @@ body{
 }
 
 inp.back {
-    padding: 0.5%;
+    padding: 0px;
     background: #10314c;
   }
   
@@ -126,6 +126,37 @@ padding-right: 25%;
     letter-spacing: 0.2px;
     background-color: transparent;
     border: none;
+}
+
+.trip-details button:hover {
+    color: black;
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+.trip-details button:active{
+    color: black;
+    color: black;
+    background-color: white !important;
+    border-color: white;
+}
+
+.dropdown button{
+    white-space: nowrap;
+    text-align: left;
+    font-family: Forma DJR Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(151,157,173,1);
+    letter-spacing: 0.24px;
+}
+
+.dropdown i{
+    color: rgba(151,157,173,1);
+    padding-left: 4px;
+    padding-right: 4px;
+
 }
 .trip-details h5{
     white-space: nowrap;

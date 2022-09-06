@@ -85,14 +85,13 @@
             <!--button groups-->
             <div class="col-sm-8" style="padding-left: 0px; ">
                 <div class="col-sm-2" style="padding-left: 0px; padding-right: 0px;">
-                    <button class="active" style="background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(221,215,215,1) 96%);
-                    color: rgba(61,95,143,1); padding: 10px;">Round Trip</button>
+                    <button type="button" class="btn btn-primary">Round Trip</button>
                 </div>
-                <div class="col-sm-2" style="padding-left: 70px;">
-                    <button style="padding: 10px">One way</button>
+                <div class="col-sm-2" >
+                    <button type="button" class="btn btn-primary">One Way</button>
                 </div>
-                <div class="col-sm-2" style="padding-left: 70px;">
-                    <button style="padding: 10px">Multi City</button>
+                <div class="col-sm-2" >
+                    <button type="button" class="btn btn-primary">MultiCity</button>
                 </div>
             </div>
 
@@ -100,19 +99,55 @@
             <!--main search/input menu-->
             <div class="col-sm-9 " style="background:white; width: fit-content;  ">
                 <div class="col-sm-2" style="padding:25px ; margin-right: 30px;">
-                    <h5><i class="fa-solid fa-map-location" style="padding: 5px;"></i>Location<i class="fa-solid fa-caret-down" style="padding: 5px;" ></i></h5>
+                    <!-- <h5></h5> -->
+                    <div class="dropdown" style="display: flex;">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                            <i class="fa-solid fa-map-location" style="padding-top: 2px;"></i>Location<i class="fa-solid fa-caret-down" style="padding-top: 2px; padding-left:0px ;" ></i>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </div>
                     <h4>Lofoten Islands</h4>
                 </div>
                 <div class="col-sm-2" style="padding:25px; margin-left: 30px;">
-                    <h5><i class="fa-solid fa-users" style="padding: 5px;"></i>Guests<i class="fa-solid fa-caret-down" style="padding: 5px;"></i></h5>
+                    <div class="dropdown" style="display: flex;">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                            <i class="fa-solid fa-users" style="padding-top: 2px;"></i>  Guests<i class="fa-solid fa-caret-down" style="padding-top: 2px; padding-left:0px ;" ></i>
+                                                </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </div>
                     <h4>2 Adults</h4>
                 </div>
                 <div class="col-sm-2" style="padding:25px; margin-left: 30px;">
-                    <h5><i class="fa-solid fa-hand-holding" ;style="padding: 5px;"></i>Arriving<i class="fa-solid fa-caret-down" style="padding: 5px;"></i></h5>
+                    <div class="dropdown" style="display: flex;">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                            <i class="fa-solid fa-hand-holding" style="padding-top: 2px;"></i>Arriving   <i class="fa-solid fa-caret-down" style="padding-top: 2px; padding-left:0px ;" ></i>                                             </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </div>
                     <h4>May 8th,2021</h4>
                 </div>
                 <div class="col-sm-2" style="padding:25px; margin-left: 30px;">
-                    <h5><i class="fa-solid fa-plane-departure" style="padding: 5px;" ></i>Departing<i class="fa-solid fa-caret-down" style="padding: 5px;"></i></h5>
+                    <div class="dropdown" style="display: flex;">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                            <i class="fa-solid fa-plane-departure" style="padding-top: 2px;"></i>Departing   <i class="fa-solid fa-caret-down" style="padding-top: 2px; padding-left:0px ;" ></i>                                           
+                          </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </div>
                     <h4>May 19th,2021</h4>
                 </div>
                 <div class="col-sm-2" style="padding:20px; padding: 25px; margin-left: 30px;">
