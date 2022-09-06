@@ -247,9 +247,8 @@ body {
   }
 
   .dropdown-item:hover{
-    background-color: #5c28ea;
-    font-weight: 500;
-    color: white;
+    background-color: rgb(216, 216, 216);
+    font-weight: 550;
     
   }
   
